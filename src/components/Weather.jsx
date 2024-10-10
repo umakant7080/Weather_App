@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useRef, useState} from 'react';
 import './Weather.css';
 import search_icon from '../assets/search.png';
@@ -64,6 +65,7 @@ const Weather = () => {
 
     useEffect(() => {
         search("delhi");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (
